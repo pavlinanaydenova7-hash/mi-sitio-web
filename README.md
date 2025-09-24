@@ -1,7 +1,7 @@
 ﻿# Mi Sitio Web - Curso MF0952_2
 
 ## Descripción
-Este sitio web fue creado como parte de las prácticas del curso MF0952_2 para demostrar técnicas de transferencia de archivos desde Windows a servidor Ubuntu.
+Este sitio web fue creado como parte de las prácticas del curso MF0952_2 para demostrar técnicas de transferencia de archivos desde Windows a servidor Ubuntu. Hola.
 
 ## Estructura
 - `index.html` - Página principal
