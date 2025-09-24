@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web - Curso MF0952_2</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Bienvenido a Mi Sitio Web</h1>
+            <p>Este sitio fue creado como parte del curso MF0952_2</p>
+            <img src="images/banner.jpg" alt="Banner principal" class="banner">
+        </section>
+
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicios-grid">
+                <div class="servicio">
+                    <h3>Diseño Web</h3>
+                    <p>Creamos sitios web modernos y responsivos</p>
+                </div>
+                <div class="servicio">
+                    <h3>Desarrollo</h3>
+                    <p>Aplicaciones web con las últimas tecnologías</p>
+                </div>
+                <div class="servicio">
+                    <h3>SEO</h3>
+                    <p>Optimización para motores de búsqueda</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contactForm">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mi Sitio Web. Curso MF0952_2</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

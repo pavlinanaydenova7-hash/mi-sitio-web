@@ -1,0 +1,13 @@
+﻿{
+  "siteName": "Mi Sitio Web - MF0952_2",
+  "version": "1.0.0",
+  "author": "Alumno del Curso",
+  "created": "2025-09-21",
+  "description": "Sitio web de prueba para prácticas de transferencia",
+  "technologies": ["HTML5", "CSS3", "JavaScript", "Nginx"],
+  "deployment": {
+    "server": "Ubuntu 22.04",
+    "webServer": "Nginx",
+    "protocol": "HTTP/HTTPS"
+  }
+}
